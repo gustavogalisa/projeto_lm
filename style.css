@@ -163,3 +163,43 @@ nav a{
     margin-right: 40px;
     margin-bottom: 40px;
 }
+
+.form_main{
+    display: flex;
+    flex-direction: row
+}
+
+.form_img img{
+    width: 480px;
+    height: 580px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border:  40px solid rgba(241, 239, 116, 0.781);
+}
+
+.form_main form{
+    background-color: rgba(255, 255, 255, 0.756);
+    color: black;
+    width: 480px;
+    height: 613px;
+    padding: 30px;
+}
+
+form div{
+    padding: 1%;
+}
+
+.nome input{
+    width: 80%
+}
+
+.email input{
+    width: 76%
+}
+
+.obs textarea{
+    width: 94%
+}
