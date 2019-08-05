@@ -22,7 +22,13 @@ nav{
 }
 
 .map{
-    border:  40px solid  rgba(178,35,52, 0.781);
+    border:  10px solid  rgba(178,35,52, 0.781);
+}
+
+.form_img img{
+    width: 66%;
+    height: auto;
+    border:  40px solid rgba(178,35,52, 0.781);
 }
 
 @media all and (max-width: 576px){
