@@ -80,6 +80,21 @@ nav{
 
 .mid_banner{
     opacity: 0.7;
+    animation: banner 2s ease-in-out;
+}
+
+@keyframes banner{
+    from{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.3;
+    }
+
+    to{
+        opacity: 0.7;
+    }
 }
 
 .galery{
