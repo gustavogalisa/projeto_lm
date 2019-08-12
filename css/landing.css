@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    background-image: linear-gradient(to right,#264A72 40%  ,rgb(231, 62, 62));
+    color: whitesmoke;
+}
+
+#imagens{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imagens div{
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a{
+    width: 50%;
+}
+
+a img{
+    width: 100%
+}
+
+h1{
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+#usa{
+    animation: us_animation 0.75s ease-out;
+    transform: translateX(13%);
+}
+
+#urss{
+    animation: urss_animation 0.75s ease-out ;
+    transform: translateX(-13%);
+}
+
+#titulo{
+    animation: titulo 3s ease-in;
+}
+
+#subtitulo{
+    animation: titulo 6s ease-in;
+}
+
+@keyframes us_animation{
+    0%{
+        transform: translateX(-500px)
+    }
+}
+
+@keyframes urss_animation{
+    0%{
+        transform: translateX(500px)
+    }
+}
+
+@keyframes titulo{
+    0%{
+        opacity: 0;
+    }
+    50%{   
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media all and (min-width:1200px){
+    a{
+        width: 35%;
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
