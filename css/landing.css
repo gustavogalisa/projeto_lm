@@ -37,6 +37,11 @@ a img{
     width: 100%
 }
 
+.words{
+    position: relative;
+    z-index: 100;
+}
+
 h1{
     padding: 2rem 0;
     font-size: 4rem;
