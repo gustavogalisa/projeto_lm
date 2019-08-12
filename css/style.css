@@ -76,6 +76,7 @@ nav{
     max-height: 100%;
     border-top: solid white 3px;
     border-bottom: solid white 3px;
+    margin-top: 3.8rem;
 }
 
 .mid_banner{
@@ -174,7 +175,6 @@ iframe{
     color: black;
     width: 100%;
     height: 100%;
-    /* padding: 30px; */
 }
 
 form div{
